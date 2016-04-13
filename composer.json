@@ -5,9 +5,8 @@
     "twig/twig": "^1.19",
     "symfony/twig-bridge": "^2.7",
     "alrik11es/cowsayphp": "^1.0",
-	"gd": "*",
-	"mbstring": "*",
-	"mcrypt": "*"
+	"ext-gd": "*",
+	"ext-mbstring": "*"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"

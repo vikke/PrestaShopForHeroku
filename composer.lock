@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a9015afecfaf9e7f98a2313e11a4fed4",
-    "content-hash": "bf605416dfe616b7a519cb53b18be084",
+    "hash": "8c49751be3c1b81e094a83c99660f368",
+    "content-hash": "7b8604e5a84b34d609fe8e4bda3d8375",
     "packages": [
         {
             "name": "alrik11es/cowsayphp",
@@ -880,6 +880,9 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-gd": "*",
+        "ext-mbstring": "*"
+    },
     "platform-dev": []
 }
