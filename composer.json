@@ -4,7 +4,10 @@
     "monolog/monolog": "~1.7",
     "twig/twig": "^1.19",
     "symfony/twig-bridge": "^2.7",
-    "alrik11es/cowsayphp": "^1.0"
+    "alrik11es/cowsayphp": "^1.0",
+	"gd": "*",
+	"mbstring": "*",
+	"mcrypt": "*"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
