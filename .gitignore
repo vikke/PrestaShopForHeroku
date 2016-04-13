@@ -52,20 +52,20 @@ config/xml/*
 
 # Translations and emails templates
 
-translations/*
-mails/*
-!mails/en/
-themes/default-bootstrap/lang/*
-themes/default-bootstrap/modules/*/translations/*.php
-themes/default-bootstrap/mails/*
-!themes/default-bootstrap/mails/en/
-themes/default-bootstrap/modules/*/mails/*
-!themes/default-bootstrap/modules/*/mails/en
+#translations/*
+#mails/*
+#!mails/en/
+#themes/default-bootstrap/lang/*
+#themes/default-bootstrap/modules/*/translations/*.php
+#themes/default-bootstrap/mails/*
+#!themes/default-bootstrap/mails/en/
+#themes/default-bootstrap/modules/*/mails/*
+#!themes/default-bootstrap/modules/*/mails/en
 
 # MISC
 
-*sitemap.xml
-robots.txt
+#*sitemap.xml
+#robots.txt
 
 !**/.empty
 
