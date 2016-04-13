@@ -26,6 +26,8 @@
 
 require_once(dirname(__FILE__).DIRECTORY_SEPARATOR.'init.php');
 
+echo getcwd();
+
 try {
     require_once(_PS_INSTALL_PATH_.'classes'.DIRECTORY_SEPARATOR.'controllerHttp.php');
     InstallControllerHttp::execute();
