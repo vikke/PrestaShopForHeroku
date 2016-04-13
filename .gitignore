@@ -18,12 +18,12 @@ bower_components
 
 # Cache, temp and personal files
 
-cache/*
-download/*
-img/*
-log/*
-upload/*
-vendor/*
+#cache/*
+#download/*
+#img/*
+#log/*
+#upload/*
+#vendor/*
 
 admin-dev/autoupgrade/*
 admin-dev/backups/*
